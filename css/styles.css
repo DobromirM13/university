@@ -2,27 +2,31 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Hubballi&display=swap');
 /* Styles for the body */
 
-body {
+body
+
+
+{
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #FFE7D1;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #ECBC90;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FFF0E2;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #A76D46;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +52,27 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.calor {
+font-family: 'Amatic SC', cursive;
+	color: #5E3D27;
+text-align: left;
+font-style: bold;
+text-decoration: underline;
+}
+.baby {
+
+font-family: 'Hubballi', cursive;
+	color: #5E3D27;
+text-align: left;
+font-style: bold;
+;
+}
+.contact {
+font-family: 'Amatic SC', cursive;
+	color: #FDFDFD;
+text-align: left;
+font-style: bold;
+;
 }
